@@ -191,8 +191,9 @@ a {
 /* PRODUCT PAGE */
 .product-layout {
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
-  gap: 150px;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 60px;
+  gap: 60px;
   margin-top: 20px;
 }
 .prod-image {
@@ -203,6 +204,9 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  align-self: start; /* stop stretching */
+  aspect-ratio: 1 / 1; /* behold firkant */
+  margin-right: 100px;
 }
 .prod-image img {
   width: 100%;
