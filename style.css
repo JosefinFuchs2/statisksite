@@ -204,9 +204,9 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  align-self: start; /* stop stretching */
+  align-self: start;
   aspect-ratio: 1 / 1; /* behold firkant */
-  margin-right: 100px;
+  margin-right: 90px;
 }
 .prod-image img {
   width: 100%;
@@ -227,7 +227,7 @@ a {
   width: 100%;
   cursor: pointer;
 
-  margin-top: 12px; /* ← luft fra sizes */
+  margin-top: 12px;
   border-radius: 6px;
 }
 details {
@@ -311,7 +311,7 @@ details {
 }
 
 .size input {
-  display: none; /* skjuler radio-knappen */
+  display: none;
 }
 
 /* RESPONSIVE */
@@ -356,7 +356,7 @@ details {
 }
 
 .size input {
-  display: none; /* skjuler radio-knappen */
+  display: none;
 }
 .iconbtn {
   width: 36px;
